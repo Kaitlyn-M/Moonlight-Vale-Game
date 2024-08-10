@@ -115,8 +115,8 @@ int Human::newOppHealth(int* demonHealth, int humanDmg)
 //Setter method that takes in the pointer to the human's health to determine the human's new health
 int Human::setHealth(int* humanHealth)
 {
-	//If humanHealth is greater than 0, return humanHealth.
-	if (humanHealth > 0)
+	//If humanHealth is not null, return humanHealth.
+	if (humanHealth != nullptr)
 	{
 		return *humanHealth;
 	}

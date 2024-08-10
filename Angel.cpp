@@ -115,8 +115,8 @@ int Angel::newOppHealth(int* demonHealth, int angelDmg)
 //Setter method that takes in the pointer to the ninja's health to determine the ninja's new health
 int Angel::setHealth(int* angelHealth)
 {
-	//If angelHealth is greater than 0, return angelHealth.
-	if (angelHealth > 0)
+	//If angelHealth is not null, return angelHealth.
+	if (angelHealth != nullptr)
 	{
 		return *angelHealth;
 	}

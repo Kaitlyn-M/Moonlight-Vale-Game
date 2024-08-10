@@ -87,7 +87,7 @@ int Character_Creator::enterCharacterAge()
 				//Write character age to the file.
 				characterFile << characterAge << std::endl;
 				//Indicates that the age has been saved to the file.
-				std::cout << "\Age saved to file!\n";
+				std::cout << "Age saved to file!\n";
 				//Close the file.
 				characterFile.close();
 			}
@@ -145,7 +145,7 @@ void Character_Creator::enterCharacterSpecies()
 				//Write character species to the file.
 				characterFile << characterSpecies << std::endl;
 				//Indicates that the species has been saved to the file.
-				std::cout << "\Species saved to file!\n";
+				std::cout << "Species saved to file!\n";
 				//Close the file.
 				characterFile.close();
 			}
@@ -203,7 +203,7 @@ void Character_Creator::enterCharacterCatchphrase()
 				//Write character catchphrase to the file.
 				characterFile << characterCatchphrase << std::endl;
 				//Indicates that the catchphrase has been saved to the file.
-				std::cout << "\Catchphrase saved to file!\n";
+				std::cout << "Catchphrase saved to file!\n";
 				//Close the file.
 				characterFile.close();
 			}

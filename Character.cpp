@@ -166,8 +166,8 @@ int Character::randomRoll(int upperLimit)
 //Setter method that takes in the "h" integer to determine the character's new health
 int Character::setHealth(int* h)
 {
-	//If h(health) is greater than 0, return health.
-	if (h > 0)
+	//If h(health) is not null, return health.
+	if (h != nullptr)
 	{
 		return *h;
 	}
